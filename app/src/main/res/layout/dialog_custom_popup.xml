@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_glassmorphic"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <Button
+        android:id="@+id/btnNewTab"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:drawableStart="@drawable/ic_add_tab"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"
+        android:paddingHorizontal="16dp"
+        android:text="@string/menu_new_tab"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnHome"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:drawableStart="@drawable/ic_home"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"
+        android:paddingHorizontal="16dp"
+        android:text="@string/menu_home"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnAddBookmark"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:drawableStart="@drawable/ic_bookmark"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"
+        android:paddingHorizontal="16dp"
+        android:text="@string/menu_add_bookmark"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnBookmarks"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:drawableStart="@drawable/ic_bookmark"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"
+        android:paddingHorizontal="16dp"
+        android:text="@string/menu_bookmarks"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:drawableStart="@drawable/ic_settings"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"
+        android:paddingHorizontal="16dp"
+        android:text="@string/menu_settings"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+</LinearLayout>

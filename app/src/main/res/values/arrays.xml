@@ -1,0 +1,62 @@
+<resources>
+    <string-array name="url_position_entries">
+        <item>Top</item>
+        <item>Bottom</item>
+    </string-array>
+    <string-array name="url_position_values">
+        <item>top</item>
+        <item>bottom</item>
+    </string-array>
+
+    <string-array name="tab_layout_entries">
+        <item>Off (use tabs button)</item>
+        <item>Bottom, horizontal</item>
+        <item>Left, vertical</item>
+        <item>Right, vertical</item>
+    </string-array>
+    <string-array name="tab_layout_values">
+        <item>off</item>
+        <item>bottom_horizontal</item>
+        <item>left_vertical</item>
+        <item>right_vertical</item>
+    </string-array>
+
+    <string-array name="autohide_entries">
+        <item>Off</item>
+        <item>On (hide while scrolling)</item>
+        <item>On + lock (stay hidden)</item>
+    </string-array>
+    <string-array name="autohide_values">
+        <item>off</item>
+        <item>on</item>
+        <item>on_and_lock</item>
+    </string-array>
+
+    <string-array name="text_size_entries">
+        <item>75%</item>
+        <item>100%</item>
+        <item>125%</item>
+        <item>150%</item>
+        <item>200%</item>
+    </string-array>
+    <integer-array name="text_size_values">
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+
+    <string-array name="scale_entries">
+        <item>Small (80%)</item>
+        <item>Normal (100%)</item>
+        <item>Large (120%)</item>
+        <item>Extra large (140%)</item>
+    </string-array>
+    <string-array name="scale_values">
+        <item>0.8</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.4</item>
+    </string-array>
+</resources>
