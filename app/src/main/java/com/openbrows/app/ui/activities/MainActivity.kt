@@ -185,8 +185,8 @@ class MainActivity : AppCompatActivity() {
                 }
                 launch {
                     viewModel.textSizeFlow.collect { size ->
-                        textSize = size
-                        webViews.values.forEach { it.settings.textZoom = size }
+                        textSize = size.coerceIn(50, 400)
+                        webViews.values.forEach { it.settings.textZoom = textSize }
                     }
                 }
                 launch {
@@ -264,7 +264,7 @@ class MainActivity : AppCompatActivity() {
             allowFileAccess = false
             allowContentAccess = false
             mixedContentMode = WebSettings.MIXED_CONTENT_COMPATIBILITY_MODE
-            textZoom = textSize
+            textZoom = this@MainActivity.textSize.coerceIn(50, 400)
         }
 
         webView.webViewClient = BrowserWebViewClient(
